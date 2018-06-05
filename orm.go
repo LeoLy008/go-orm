@@ -1308,7 +1308,7 @@ func NewORM(ds string) *ORM {
 }
 
 func NewPrestoORM(ds string) *ORM {
-	return newORMWithDriver(ds, "prestgo")
+	return newORMWithDriver(ds, "presto")
 }
 
 func newORMWithDriver(ds string, driverName string) *ORM {
